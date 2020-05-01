@@ -1,0 +1,23 @@
+@import "nav.css";
+body {
+    background: #c7d7d1;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    grid-template-areas: "nav nav"
+}
+
+@media (min-width: 600px) {
+    #grid-container {
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 6px;
+        grid-template-areas: "nav nav nav nav"
+    }
+}
