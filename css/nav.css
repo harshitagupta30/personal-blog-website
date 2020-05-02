@@ -3,6 +3,7 @@ nav {
     display: flex;
     flex-flow: row wrap;
     padding: 10px;
+    margin-bottom: 50px;
     width: 100%;
     height: 100px;
     background-color: #F5F5F5;
