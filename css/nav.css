@@ -75,7 +75,7 @@ li {
     color: #222;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
     nav {
         height: 60px;
     }

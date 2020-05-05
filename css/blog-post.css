@@ -1,6 +1,7 @@
 @import "layout.css";
 @import "nav.css";
 @import "footer.css";
+@import "panel.css";
 
 /* additional text styling */
 
@@ -18,13 +19,20 @@ p a:hover {
     grid-template-areas: "nav" "hd" "post" "post-suggestions" "ft";
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
     #parent-container {
         height: 100vh;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 60px auto 30px;
         grid-template-areas: "nav nav" "hd post" "ft ft";
+    }
+    header {
+        background-image: unset !important;
+    }
+    .panel {
+        display: grid !important;
+        margin-top: 1em;
     }
 }
 
@@ -42,11 +50,15 @@ header {
     margin: 0;
 }
 
+.panel {
+    display: none;
+}
+
 #post {
     padding: 0 30px 20px 30px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
     #post {
         overflow: scroll;
         padding: 0 30px 0px 30px;

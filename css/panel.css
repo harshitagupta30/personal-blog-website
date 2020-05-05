@@ -1,0 +1,32 @@
+.panel {
+    grid-area: panel;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 325px 325px 120px;
+    margin: 0 auto 80px;
+    max-width: 80vw;
+}
+
+.panel img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.panel img:nth-child(2) {
+    grid-column: auto / span 2;
+}
+
+.panel img:nth-child(3) {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+}
+
+.panel img:nth-child(4) {
+    grid-row: auto / span 2;
+}
+
+img {
+    max-width: 100%;
+}
