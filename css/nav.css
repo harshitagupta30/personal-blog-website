@@ -10,7 +10,7 @@ nav {
     padding: 10px;
 }
 
-#nav-flex-title {
+#title {
     display: flex;
     font-family: 'Playfair Display', serif;
     font-size: 1.5em;
@@ -29,7 +29,7 @@ nav {
     font-weight: 700;
 }
 
-#nav-flex-menu {
+#menu {
     display: flex;
     flex-flow: row wrap;
     width: 100%;
@@ -48,30 +48,30 @@ li {
     padding: 0 5px;
 }
 
-.nav-item {
+.item {
     list-style-type: none;
     margin: 5px;
 }
 
-.nav-item>a {
+.item>a {
     color: #222;
     padding: 8px 20px;
     border-radius: 2px;
 }
 
-.nav-item>a:hover {
+.item>a:hover {
     color: #222 !important;
     background-color: #fffaf0;
     border: 1px solid #fffaf0;
 }
 
-.nav-item>a:active {
+.item>a:active {
     color: #222 !important;
     background-color: #fffaf0;
     border: 1px solid #fffaf0;
 }
 
-.nav-item>a:visited {
+.item>a:visited {
     color: #222;
 }
 
@@ -79,7 +79,7 @@ li {
     nav {
         height: 60px;
     }
-    #nav-flex-title {
+    #title {
         display: flex;
         flex-flow: row wrap;
         width: 40%;
@@ -92,7 +92,7 @@ li {
         margin-left: 0;
         font-weight: 600;
     }
-    #nav-flex-menu {
+    #menu {
         display: flex;
         flex-flow: row wrap;
         width: 60%;
