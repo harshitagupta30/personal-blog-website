@@ -27,13 +27,13 @@ p a:hover {
         grid-template-rows: 60px auto 30px;
         grid-template-areas: "nav nav" "hd post" "ft ft";
     }
-    header {
+    /* header {
         background-image: unset !important;
     }
     .panel {
         display: grid !important;
         margin-top: 1em;
-    }
+    } */
 }
 
 
